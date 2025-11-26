@@ -5,6 +5,9 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
+        # problem statement:
+        # Given two strings s and t, return true if t is an anagram of s
+        # and false otherwise.
 
         # We are given two string (s and t), we have to return true if t is an anagram of s, and false otherwise.
         # order does not matter

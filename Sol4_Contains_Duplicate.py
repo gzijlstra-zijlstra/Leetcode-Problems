@@ -5,6 +5,9 @@ class Solution(object):
         :type nums: List[int]
         :rtype: bool
         """
+        # problem statement:
+        # Given an integer array nums, return true if any value appears
+        # at least twice in the array, and return false if every element is distinct.
 
         # I am given an integer array (nums), I have to return
         # true if any value appears atleast twice in the array, and have 
@@ -30,3 +33,5 @@ class Solution(object):
 
         # if no duplicates were found, I will return false
         return False
+    
+    # all the test cases passed on leetcode.

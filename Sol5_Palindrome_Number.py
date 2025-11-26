@@ -5,13 +5,16 @@ class Solution(object):
         :type x: int
         :rtype: bool
         """
+        # problem statement:
+        # Given an integer x, return true if x is a palindrome,
+        # and false otherwise.
+
         
         # I am given an integer x, 
         # I have to return true if x is a palindrome, false if not.
         # Palidrome is a number that reads sane backwards.
         # Example: x = 121 -> true
         # Example: x = -121 -> false
-
         # So i know that negative number have to return false, as they can't be palindromes
         #  I am going to convert the integer to a string, 
         # because strings are easier to reverse and check.

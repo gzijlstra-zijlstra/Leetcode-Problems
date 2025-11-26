@@ -4,6 +4,11 @@ class Solution(object):
         :type strs: List[str]
         :rtype: str
         """
+
+        # problem statement:
+        # Write a function to find the longest common prefix string 
+        # amongst an array of strings.
+        # If there is no common prefix, return an empty string "".
         
         # I have to write a function to find the longest common prefix string amongst an array of strings.
         # it says that if there is no common prefix, return an empty string "".

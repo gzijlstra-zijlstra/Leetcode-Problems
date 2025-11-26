@@ -5,6 +5,12 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
+        # problem statement:
+        # Given an array of integers nums and an integer target,
+        # return indices of the two numbers such that they add up to target.
+        # You may assume that each input would have exactly one solution,
+        # and you may not use the same element twice.
+        # You can return the answer in any order.
 
         # we are given an array of integers nums and an integer target,
         # have to return indices of the two numbers such that they add up to target.
@@ -16,7 +22,7 @@ class Solution(object):
         # since I will needs its Key: value structure, to store these numbers in their respective index.  
         # which index the valid nums that together match target are
 
-        # dict for storing the number and which index it belongs to
+        # dictionary datatype for storing the number and which index it belongs to
         seen = {}
 
         # I want to look through every number in the list, I loop through with a for loop
